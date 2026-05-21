@@ -1,0 +1,6 @@
+interface:
+  display_name: "Doc2HTML"
+  short_description: "将文档编译为离线交互式 HTML 网页"
+  default_prompt: "Use $doc2html to turn this document into an offline interactive HTML report."
+policy:
+  allow_implicit_invocation: true
