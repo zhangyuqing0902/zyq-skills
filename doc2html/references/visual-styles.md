@@ -12,8 +12,10 @@ Before producing the final HTML, provide three visual directions:
 - Make them meaningfully different.
 - Tie each direction to the document type and audience.
 - Include a concise rationale for why it fits.
+- Include an actual main-visual image for each direction when running in Codex.
+- Treat user confirmation as mandatory. Do not build the HTML, choose a style, or silently proceed until the user explicitly selects or modifies a direction.
 
-In Codex, generate three main-visual images using image2 when available. This skill is optimal in Codex because the multi-style visual direction step can use Codex's image2 capability.
+In Codex, generate three main-visual images using image2. This skill is optimal in Codex because the multi-style visual direction step can use Codex's image2 capability. Text-only direction descriptions are not an acceptable substitute in Codex unless image generation fails and the user explicitly approves a text-only fallback.
 
 If used in Claude Code or another agent without image2:
 
@@ -37,6 +39,7 @@ Choose based on content, not personal preference:
 Use subtle local CSS animation only when it improves comprehension:
 
 - Hover scale and border highlight for blocks.
+- Hover highlight and restrained scale/elevation for tables.
 - Gentle reveal or section emphasis.
 - Sticky or floating top button.
 - Simple progress or timeline transitions.

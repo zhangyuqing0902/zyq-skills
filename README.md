@@ -31,13 +31,13 @@
 在 Codex、Claude Code、OpenCode、OpenClaw 等支持 Skill 的 Agent 里，直接说：
 
 ```text
-帮我安装这个 skill：<你的 GitHub 仓库地址>/tree/main/<skill-name>
+帮我安装这个 skill：https://github.com/zhangyuqing0902/zyq-skills/tree/main/<skill-name>
 ```
 
 例如发布到 GitHub 后安装 `doc2html`：
 
 ```text
-帮我安装这个 skill：<你的 GitHub 仓库地址>/tree/main/doc2html
+帮我安装这个 skill：https://github.com/zhangyuqing0902/zyq-skills/tree/main/doc2html
 ```
 
 手动安装时，把对应 Skill 文件夹复制到你的 Agent Skills 目录即可：

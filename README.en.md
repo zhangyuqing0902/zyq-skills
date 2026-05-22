@@ -31,13 +31,13 @@ This repository collects my reusable AI agent skills. Each skill lives in its ow
 In Codex, Claude Code, OpenCode, OpenClaw, or another agent that supports Skills, say:
 
 ```text
-Install this skill: <your GitHub repository URL>/tree/main/<skill-name>
+Install this skill: https://github.com/zhangyuqing0902/zyq-skills/tree/main/<skill-name>
 ```
 
 After publishing this repository to GitHub, install `doc2html` with:
 
 ```text
-Install this skill: <your GitHub repository URL>/tree/main/doc2html
+Install this skill: https://github.com/zhangyuqing0902/zyq-skills/tree/main/doc2html
 ```
 
 For manual installation, copy the skill folder into your agent's skills directory:
